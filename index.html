@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+    <title>Anonymity</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Achieving <span>anonymity</span> online</h1>
+    </div>
+    <br>
+    <div class="single">
+        <div class="header">
+
+        </div>
+        <br>
+        <div class="one">
+            <h2>About The Talk!</h2>
+            <br>
+
+            <p>As we know, <span>anonymity</span> online has become an increasingly popular issue in today's society. Solutions ranging from taping off your webcam to using a VPN have been seeing a rise in popularity as nationaly and privately funded surveilance becomes more and more commonplace. As it goes with any contention between two sides, one is always trying to get ahead of the other. In this case it started with packets being intercepted and their routes tracked. The response was basic encryption. The race escalated since then to include route obfuscating, connection nesting and really advanced encryption [such as <span class="span">PGP</span> which includes a private key or <span class="span">AES256</span> and many more]. The question remains; can we truly be anonymous online?
+                <br>
+                <br> Most people will use a virtual private network to try and hide their activities, and for the most part it's effective. Rarely users will opt-in to use a client designed to acces the internet through the use of an anonymity network, such as <span class="span">TOR</span>. Service providers today are encouraged to use <span class="span">SSL</span> to secure their connections, thus mostly eliminating the possibility of packets being intercepted and their contents read, using a <span class="span">VPN</span> only adds to user security by making all packets look relatively similar to any would-be onlookers, as the more secured packets don't stand out from the rest.
+                <br> Anonymity networks add to this by adding another layer of security by routing traffic through a number of secondary locations before connecting. This way in theory anyone monitoring a user's computer will not see what users are connecting to, and anyone monitoring the services won't know the user is connecting to it.
+                <br>
+                <br> Essentially, we have to differentiate between two types of attackers on users. The first type consists mostly of power users and organized groups. The other type consists of well-funded organizations with enough resources and sway to infiltrate other organizations. While the first group will mostly engage in
+                <span class="span">DDoS</span>, <span class="span">MitM</span>, social engineering and running exploits to take over servers and systems (lately most notably <span class="span">WannaCry</span>), the other group takes a more passive stance, investing their vast resources in building a comprehensive network of sources intent on monitoring and recording any and all online traffic. Mostly the first group will face constant security updates and patches, as well as services offering specialized protection against specific attacks. The other group, however, given what seems like unlimited resources and reach, can remain content saving every bit of every byte that passes through their controlled points, thus eliminating all attempts at hiding transparency, given enough time. Most users will not face problems steming from wide-spread surveilance of traffic, but will do anything to avoid getting their local system compromised. The rare few users that are keen on complete privacy will have to face the fact that any and all of their online interactions will be recorded, somewhere. Now an argument can be made for strong encryption that would take even supercomputers years if not centuries to crack. However this does not sattisfy all the users for all their activities.
+                <br>
+                <br> So, the question remains, how can we truly be anonymous online . Not really and not entirely. The only solution being extremely low tech; we hide in real life. we achieve complete anonymity online? And the anwser is staggeringly simple. We can't. While this may sound paranoid, it's the only way to really stay anonymous. Whether it is connecting to an open wireless access point from afar using a high-powered wireless card, or changing your location every time you access the web is up to each individual user, however avoiding CCTV is advised, remember that organizations that can monitor the whole of the web are the same organizations that can also monitor security camera feeds, public transportation logs et ceterum (etc), meaning pattern recognition to identify users is a high possibility, if not already standard practice. One who strives for such a level of privacy should take into consideration using specialized software and hardware that controls what IDs are transmitted and when. Essentially changing your MAC and what motherboard ID is transmitted is essential for truly not creating a pattern when connecting. %% NOTE! (there are ofc more IDs like processor and HDD and such but those are relatively commonly duplicated as the ID is more or less the serial of the machine part) %%
+                <br>
+                <br> Hiding your IDs, hiding your access to the web in the physical world and using long packet routes when connecting to the web is quintessential to preventing a speedy response from any group or agency. This is to say that given enough resources and time any and all communication can be <span class="span">decrypted</span> completely, but at least you can still transfer the data without a connection leading back to you.
+                <br>
+                <br> If we consider that most users are just privacy-oriented and curious, we can conclude that using an anonymity network such as TOR will serve well enough. TOR is free software that enables anonymous communication. It was developed almost thirty years ago by the United States Naval Research Laboratory. It was later used by <span class="span">DARPA</span> and it's currently mostly being funded by the federal government of the United States. TOR in itself had vulnerabilities discovered and exploited in the past, but it's open-source nature ensures peer reviewed patches are delivered quickly and efficiently, essentially, this is as close as we can get.
+                <br>
+                <br> Using an anonimity network is good, but for some activity, we might want to use a system that stores less
+                <span class="span">meta-data</span>. Live systems are particularly good at this, as they can be used without leaving a trace on the host computer, which can come in handy. <span class="span">Tails</span> is a Debian Linux distribution with built-in TOR functionalities. Any and all trafic to the internet is forced through TOR and any aplication that wants a direct connection is automatically blocked. This comes in handy when browsing data that would otherwise be unavailable or changed for your region. You can also keep the whole system backed up to an <span class="span">USB stick</span> and use it as needed without worrying about leaving residual data on the host, unless you specifically instruct the OS to do so. Tails also comes with state-of-the-art cryptographic tools, that range from external drive encryption tools to secure deletion of documents to extra layers of encryption and authentication. Online users striving to achieve anonymity resulted the rise of nearly untraceable e-currency back in January of 2009. This soon resulted in a massive boom in dark-web marketplaces such as <span class="span">Silk Road</span> and, after it's downfall, it's imitators. The alternating rises and falls in the presence and trafic on such markets directly correlates with the value of various <span class="span">cryptocurrencies</span>, especially <span class="span">Bitcoin</span>.
+                <br>
+            </p>
+
+            <br>
+            <br>
+            <h3>Sub-topics</h3>
+            <br>
+            <br>
+            <h2 class="h2">Cryptography</h2>
+            <br>
+            <p>
+                <span>- Privacy</span> (basically prevention)
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> Prevents unaouthorised disclosure
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> spear phishing
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> layering defence
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> physical defence
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> mail filters
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> administrative controls
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> social engineering
+                <br>
+                <br>
+
+                <span>- Integrity</span> (modifications)
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> Accidental
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> HASH (message digest)
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> Intentional
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> MAC (Message Intentional Code)
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> Digital Signature (which includes private keys etc)
+                <br>
+                <br>
+                <span>- Authenticity</span>
+                <br>
+                <br>
+
+                <span>-  Encryptions</span>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> AES , DES, 3DES, IDEA, CAST, 2FISH, BLOWFISH, SERPENTS, OTP, PGP
+                <br>
+                <br>
+
+                <span>- Ciphers</span>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>-</span> Substitution, Masonic Cipher, Caesar Shift, Play Fair etc.
+                <br>
+
+
+            </p>
+            <br>
+            <br>
+            <h2 class="h2">MitM(Man-in-the-middle attack)</h2>
+            <br>
+            <p>
+
+                <span>- </span>communication between two systems intercepted by an outside entity.
+                <br>
+                <span>- </span>email hijacking
+                <br>
+                <span>- </span> Wi-Fi eavesdropping
+                <br>
+                <span>- </span>session hijacking
+                <br>
+                <br>
+                <span>- </span>How to protect?
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>- </span>S/MIME
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>- </span>authentication certificates
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>- </span>SSL/TLS Certificates
+                <br>
+
+
+
+
+
+            </p>
+            <br>
+            <br>
+
+            <h2 class="h2">HASH functions</h2>
+            <br>
+            <p>
+                <span>- </span>to verify authenticity of data
+                <br>
+                <span>- </span>common hash functions
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>- </span>SHA-1
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>- </span>MD5
+                <br>
+                <span>- </span>practical presentation with examples
+                <br>
+            </p>
+            <br>
+            <br>
+            <h2 class="h2">Cryptocurrency</h2>
+            <br>
+            <p>
+
+                <span>- </span>A Peer-to-Peer Electronic Cash System
+                <br>
+                <span>- </span>by Satoshi Nakamoto
+                <br>
+                <span>- </span> secured by miners
+                <br>
+                <span>- </span>strong cryptography
+                <br>
+                <span>- </span>blockchain technology
+                <br>
+                <span>- </span>various currencies
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span>- </span>bitcoin, ethereum, ripple, litecoin etc.
+                <br>
+
+
+            </p>
+            <br>
+            <br>
+            <h2 class="h2">Dark Web / Deep Web</h2>
+            <br>
+            <p>
+                <span>- </span>Deep Web
+                <br>
+                <span>- </span>Dark Web
+                <br>
+                <span>- </span>Tails OS
+                <br>
+                <span>- </span>PGP Encryptions
+                <br>
+                <span>- </span>Silk Road Market
+                <br>
+
+
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>
+                <span class="lol">The session will include screenshots and some elaboration for the processes to give a practical presentation of TAILS-TOR-dark web browsing and encrytions and ciphers. In addition, some cool stuff like a presentation of an exploit like MitM and showing how encryptions make it harder to execute.
+            
+               
+                </span>
+            </p>
+        </div>
+
+    </div>
+    <p class="p">&copy;Neeraj Pandey, 2017</p>
+
+
+</body>
+
+</html>
